@@ -1,5 +1,7 @@
 # Snyk MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@sammcj/mcp-snyk)](https://smithery.ai/server/@sammcj/mcp-snyk)
+
 A standalone Model Context Protocol server for Snyk security scanning functionality.
 
 **WARNING: THIS MCP SERVER IS CURRENTLY IN ALPHA AND IS NOT YET FINISHED!**
@@ -90,5 +92,4 @@ If you have the Snyk CLI installed (`npm install -g snyk`), the server can use i
 - Get your default organisation ID
 - Fall back to CLI configuration when MCP settings are not provided
 - Show CLI configuration details in token verification output
-
 This integration makes it easier to use the same organisation ID across both CLI and MCP server usage.
