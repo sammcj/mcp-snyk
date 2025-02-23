@@ -86,8 +86,9 @@ Scan repository https://github.com/owner/repo in organisation org-id-here
 ### Snyk CLI Integration
 
 If you have the Snyk CLI installed (`npm install -g snyk`), the server can use it to:
-- Get your default organization ID
+
+- Get your default organisation ID
 - Fall back to CLI configuration when MCP settings are not provided
 - Show CLI configuration details in token verification output
 
-This integration makes it easier to use the same organization ID across both CLI and MCP server usage.
+This integration makes it easier to use the same organisation ID across both CLI and MCP server usage.

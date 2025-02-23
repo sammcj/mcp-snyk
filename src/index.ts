@@ -29,11 +29,11 @@ function getOrgIdFromCli(): string | null {
   try {
     const output = execSync('snyk config get org', { encoding: 'utf8' }).trim();
     if (output && output !== 'undefined' && output !== 'null') {
-      console.error('Retrieved organization ID from Snyk CLI configuration');
+      console.error('Retrieved organisation ID from Snyk CLI configuration');
       return output;
     }
   } catch (error) {
-    console.error('Failed to get organization ID from Snyk CLI:', error instanceof Error ? error.message : String(error));
+    console.error('Failed to get organisation ID from Snyk CLI:', error instanceof Error ? error.message : String(error));
   }
   return null;
 }
