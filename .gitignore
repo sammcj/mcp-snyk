@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+*.swp

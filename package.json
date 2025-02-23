@@ -1,0 +1,22 @@
+{
+  "name": "@sammcj/mcp-server-snyk",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.24.2",
+    "zod-to-json-schema": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
